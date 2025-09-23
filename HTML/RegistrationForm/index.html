@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="./main.java" method="get">
+        <div>
+        <label for="rollno">Roll no : </label>
+        <input type="number" name="Rollno" id="rollno">
+    </div>
+    <br>
+    <div>
+        <label for="name">Student name : </label>
+        <input type="text" name="FirstName" id="name" placeholder="First Name"> -
+        <input type="text" name="LastName" placeholder="Last Name" >
+    </div>
+    <br>
+    <div>
+        <label for="Fname">Father's name : </label>
+        <input type="text" name="Father'sName" id="Fname">
+    </div>
+    <br>
+    <div>
+        <label for="bod">Date of birth : </label>
+        <input type="date" name="DOB" id="bod">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email">
+    </div>
+    <br>
+    <div>
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="password">
+    </div>
+    <br>
+    <div>
+        <span>Gender : </span>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Female" value="Female">
+        <label for="Female">Female</label>
+    </div>
+    <br>
+    <div>
+        <span>Department : </span>
+        <input type="checkbox" name="department" id="cse" value="CSE">
+        <label for="cse">CSE</label>
+        <input type="checkbox" name="department" id="it" value="IT">
+        <label for="it">IT</label>
+        <input type="checkbox" name="department" id="ece" value="ECE">
+        <label for="ece">ECE</label>
+        <input type="checkbox" name="department" id="civil" value="Civil">
+        <label for="civil">CIVIL</label>
+        <input type="checkbox" name="department" id="mech" value="Mech">
+        <label for="mech">MECH</label>
+    </div>
+    <br>
+    <div>
+        <span>Course : </span>
+        <select name="course" id="course">
+            <option value="">-----------Select Current Courses's-----------</option>
+            <option value="Java">Full Stack Java</option>
+            <option value="Python">Full Stack Python</option>
+            <option value="DataAnalytics">Data-Analytics</option>
+            <option value="DataScience">Data Science</option>
+             <option value="UIUX">UI&UX</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <span>Student Photo : </span>
+        <input type="file">
+    </div>
+    <br>
+    <div>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city">
+    </div>
+    <br>
+    <div>
+        <span>Address : </span>
+        <textarea name="" id="" cols="30" rows="3"></textarea>
+    </div>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
