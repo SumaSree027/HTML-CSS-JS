@@ -1,0 +1,25 @@
+body{
+    background-image: url("./marvel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+img{
+    height: 200px;
+    border-radius: 50%;
+}
+#Profile{
+    border: 1px solid black;
+    background-color: white;
+    height: 70vh;
+    width: 300px;
+    text-align: center;
+    box-sizing:border-box ;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 2px 4px 50px red;
+    margin: 5% 40%;
+
+
+}
