@@ -2,15 +2,26 @@
     border: 1px solid red;
     width: 600px;
     height: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   gap: 10px;
+  
     
 }
 .box{
-    border: 1px solid green;
+   border: 1px solid green;
     width: 100px;
     height: 100px;
 
+}
+.box5{
+    /* align-self:center ; */
+    
+}
+.box2{
+    order: -1;
+}
+.box1{
+    order: 1;
 }
