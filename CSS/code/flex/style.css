@@ -23,7 +23,7 @@
     order: 1;
 }
 .box5{
-    flex-shrink:10;
+    flex-shrink:20;
 }
 .box2{
     flex-grow:10;
