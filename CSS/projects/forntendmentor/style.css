@@ -5,10 +5,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 body{
     background-color: hsl(233, 47%, 7%);
-    color: white;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,5 +20,27 @@ body{
     width: 70vw;
 }
 .leftDiv{
-    padding: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stats{
+    display:flex;
+    justify-content: space-between;
+}
+h1{
+   color:hsl(0, 0%, 100%);
+   font-size: 40px;
+}
+.stat>h2{
+    color:hsl(0, 0%, 100%);
+}
+
+.stat>p{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.content{
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height:25px ;
 }
